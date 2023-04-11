@@ -45,7 +45,7 @@ export type MetaMaskMethods = EIP747 &
     wallet_scanQRCode: [[string] | [] | undefined, string]
   }
 
-export interface MetaMaskProvider extends Omit<EIP1193Provider, 'request'> {
+export interface MetaMaskProvider extends EIP1193Provider {
   isMetaMask: true
   isConnected(): boolean
 

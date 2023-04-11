@@ -1,6 +1,6 @@
 export interface RequestArguments {
-  method: string
-  params?: unknown[] | object
+  method: any
+  params?: any
 }
 
 export interface ProviderConnectInfo {
