@@ -2,6 +2,8 @@
 
 [![Unit Test](https://github.com/sxzz/eip1193-types/actions/workflows/unit-test.yml/badge.svg)](https://github.com/sxzz/eip1193-types/actions/workflows/unit-test.yml)
 
+TypeScript definitions for EIP-1193 and MetaMask.
+
 [Documentation](https://eip1193-types.vercel.app/)
 
 ## Install
