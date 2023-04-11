@@ -5,11 +5,11 @@
     "lib": ["es2019"],
     "strict": true,
     "esModuleInterop": true,
-    "moduleResolution": "bundler",
+    "moduleResolution": "nodenext",
     "skipLibCheck": true,
     "noUnusedLocals": true,
     "resolveJsonModule": true,
     "types": ["node"]
   },
-  "include": ["src", "tests"]
+  "include": ["src"]
 }

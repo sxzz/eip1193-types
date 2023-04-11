@@ -18,9 +18,8 @@
   "types": "./src/index.ts",
   "exports": {
     "./package.json": "./package.json",
-    ".": {
-      "types": "./src/index.ts"
-    }
+    "./global": "./src/global.d.ts",
+    ".": "./src/index.ts"
   },
   "publishConfig": {
     "access": "public"
