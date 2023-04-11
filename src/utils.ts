@@ -10,7 +10,7 @@ export type Method = [any, any]
 export type MakeRequestMethod<Name extends string, T extends Method> = (
   args: {
     method: Name
-  } & (T[0] extends undefined ? { params?: T[0] } : { params: T[0] })
+  } & (undefined extends T[0] ? { params?: T[0] } : { params: T[0] })
 ) => Promise<T[1]>
 
 export type MakeRequestMethods<T extends Record<string, Method>> =

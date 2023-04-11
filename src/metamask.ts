@@ -41,6 +41,8 @@ export type MetaMaskMethods = EIP747 &
     wallet_getPermissions: [[] | undefined, Web3WalletPermission[]]
     wallet_requestPermissions: [RequestedPermissions[], Web3WalletPermission[]]
     wallet_registerOnboarding: [[] | undefined, boolean]
+    /** Mobile Specific RPC Method */
+    wallet_scanQRCode: [[string] | [] | undefined, string]
   }
 
 export interface MetaMaskProvider extends Omit<EIP1193Provider, 'request'> {
