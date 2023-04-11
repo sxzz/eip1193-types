@@ -1,3 +1,5 @@
+import type { Address } from '.'
+
 export interface RequestArguments {
   method: any
   params?: any
@@ -26,7 +28,7 @@ export interface EIP1193Provider {
   on(event: 'chainChanged', listener: (chainId: string) => void): this
   /** @deprecated */
   on(event: 'networkChanged', listener: (networkId: string) => void): this
-  on(event: 'accountsChanged', listener: (accounts: string[]) => void): this
+  on(event: 'accountsChanged', listener: (accounts: Address[]) => void): this
   on(event: 'message', listener: (message: ProviderMessage) => void): this
   /** @deprecated */
   on(event: 'notification', listener: (payload: ProviderMessage) => void): this
