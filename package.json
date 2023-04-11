@@ -27,6 +27,7 @@
   "scripts": {
     "lint": "eslint . --ext .js,.ts,.jsx,.tsx,.json,.md",
     "lint:fix": "pnpm run lint --fix",
+    "typecheck": "tsc --noEmit",
     "release": "bumpp && pnpm publish"
   },
   "devDependencies": {
