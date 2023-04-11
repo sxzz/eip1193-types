@@ -28,6 +28,7 @@
     "lint": "eslint . --ext .js,.ts,.jsx,.tsx,.json,.md",
     "lint:fix": "pnpm run lint --fix",
     "typecheck": "tsc --noEmit",
+    "docs:build": "typedoc ./src/index.ts",
     "release": "bumpp && pnpm publish"
   },
   "devDependencies": {
@@ -37,6 +38,7 @@
     "eslint": "^8.37.0",
     "eslint-define-config": "^1.17.0",
     "prettier": "^2.8.7",
+    "typedoc": "^0.24.1",
     "typescript": "^5.0.3"
   },
   "engines": {

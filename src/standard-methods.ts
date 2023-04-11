@@ -1,6 +1,6 @@
 import type { Address } from './utils'
 
-interface WatchAssetParams {
+export interface WatchAssetParams {
   /** In the future, other standards will be supported */
   type: 'ERC20'
   options: {
