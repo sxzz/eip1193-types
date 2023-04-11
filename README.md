@@ -2,10 +2,22 @@
 
 [![Unit Test](https://github.com/sxzz/eip1193-types/actions/workflows/unit-test.yml/badge.svg)](https://github.com/sxzz/eip1193-types/actions/workflows/unit-test.yml)
 
+[Documentation](https://eip1193-types.vercel.app/)
+
 ## Install
 
 ```bash
 npm i eip1193-types
+```
+
+## Usage
+
+```ts
+// env.d.ts
+
+declare interface Window {
+  ethereum: import('eip1193-types').MetaMaskProvider
+}
 ```
 
 ## Sponsors
