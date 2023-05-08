@@ -15,11 +15,7 @@ npm i eip1193-types
 ## Usage
 
 ```ts
-// env.d.ts
-
-declare interface Window {
-  ethereum: import('eip1193-types').MetaMaskProvider
-}
+/// <reference types="eip1193-types/global" />
 ```
 
 ## Sponsors
