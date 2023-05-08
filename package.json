@@ -21,6 +21,14 @@
     "./global": "./src/global.d.ts",
     ".": "./src/index.ts"
   },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./src/*",
+        "./*"
+      ]
+    }
+  },
   "publishConfig": {
     "access": "public"
   },
