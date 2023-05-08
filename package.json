@@ -34,12 +34,12 @@
   "devDependencies": {
     "@sxzz/eslint-config-prettier": "^2.4.6",
     "@sxzz/eslint-config-ts": "^2.4.6",
-    "@types/node": "^18.15.11",
-    "eslint": "^8.37.0",
-    "eslint-define-config": "^1.17.0",
-    "prettier": "^2.8.7",
-    "typedoc": "^0.24.1",
-    "typescript": "^5.0.3"
+    "@types/node": "^20.1.0",
+    "eslint": "^8.40.0",
+    "eslint-define-config": "^1.20.0",
+    "prettier": "^2.8.8",
+    "typedoc": "^0.24.7",
+    "typescript": "^5.0.4"
   },
   "engines": {
     "node": ">=14.19.0"
