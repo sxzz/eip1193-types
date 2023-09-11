@@ -1,7 +1,7 @@
 {
   "name": "eip1193-types",
   "version": "0.2.1",
-  "packageManager": "pnpm@8.7.1",
+  "packageManager": "pnpm@8.7.4",
   "description": "TypeScript definitions for EIP-1193 and MetaMask.",
   "license": "MIT",
   "homepage": "https://github.com/sxzz/eip1193-types#readme",
@@ -42,11 +42,11 @@
   "devDependencies": {
     "@sxzz/eslint-config-prettier": "^2.4.6",
     "@sxzz/eslint-config-ts": "^2.4.6",
-    "@types/node": "^20.5.9",
-    "eslint": "^8.48.0",
+    "@types/node": "^20.6.0",
+    "eslint": "^8.49.0",
     "eslint-define-config": "^1.23.0",
     "prettier": "^3.0.3",
-    "typedoc": "^0.25.0",
+    "typedoc": "^0.25.1",
     "typescript": "^5.2.2"
   },
   "engines": {
