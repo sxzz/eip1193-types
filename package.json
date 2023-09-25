@@ -42,8 +42,8 @@
   "devDependencies": {
     "@sxzz/eslint-config-prettier": "^2.4.6",
     "@sxzz/eslint-config-ts": "^2.4.6",
-    "@types/node": "^20.6.2",
-    "eslint": "^8.49.0",
+    "@types/node": "^20.6.5",
+    "eslint": "^8.50.0",
     "eslint-define-config": "^1.23.0",
     "prettier": "^3.0.3",
     "typedoc": "^0.25.1",
