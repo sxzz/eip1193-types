@@ -1,15 +1,18 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "module": "nodenext",
     "lib": ["es2022"],
-    "strict": true,
-    "esModuleInterop": true,
-    "moduleResolution": "nodenext",
-    "skipLibCheck": true,
-    "noUnusedLocals": true,
+    "moduleDetection": "force",
+    "module": "preserve",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
-    "types": ["node"]
+    "types": ["node"],
+    "strict": true,
+    "noUnusedLocals": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "skipLibCheck": true
   },
-  "include": ["src"]
+  "include": ["src", "tests"]
 }

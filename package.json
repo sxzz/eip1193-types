@@ -33,18 +33,16 @@
     "access": "public"
   },
   "scripts": {
-    "lint": "eslint . --ext .js,.ts,.jsx,.tsx,.json,.md",
+    "lint": "eslint .",
     "lint:fix": "pnpm run lint --fix",
     "typecheck": "tsc --noEmit",
     "docs:build": "typedoc ./src/index.ts",
     "release": "bumpp && pnpm publish"
   },
   "devDependencies": {
-    "@sxzz/eslint-config-prettier": "^2.4.6",
-    "@sxzz/eslint-config-ts": "^2.4.6",
+    "@sxzz/eslint-config": "^3.9.0",
     "@types/node": "^20.8.0",
-    "eslint": "^8.50.0",
-    "eslint-define-config": "^1.23.0",
+    "eslint": "^9.0.0",
     "prettier": "^3.0.3",
     "typedoc": "^0.25.1",
     "typescript": "^5.2.2"

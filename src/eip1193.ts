@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/method-signature-style */
 import type { Address } from '.'
 
 export interface RequestArguments {

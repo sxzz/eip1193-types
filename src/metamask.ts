@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/method-signature-style */
 import type { EIP1193Provider } from './eip1193'
 import type { EIP1102, EIP3085, EIP3326, EIP747 } from './standard-methods'
 import type { MakeRequestMethods } from './utils'
