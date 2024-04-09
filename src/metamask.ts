@@ -20,7 +20,7 @@ export interface JsonRpcResponse {
 
 export type JsonRpcCallback = (
   error: Error,
-  response: JsonRpcResponse
+  response: JsonRpcResponse,
 ) => unknown
 
 export interface Web3WalletPermission {
