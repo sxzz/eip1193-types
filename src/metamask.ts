@@ -51,7 +51,9 @@ export interface MetaMaskProvider extends EIP1193Provider {
   isConnected(): boolean
 
   _metamask: {
-    /** **Experimental** */
+    /**
+     * **Experimental**
+     */
     isUnlocked(): Promise<boolean>
   }
 
