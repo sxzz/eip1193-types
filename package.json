@@ -40,7 +40,7 @@
     "release": "bumpp && pnpm publish"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^4.5.0",
+    "@sxzz/eslint-config": "^7.0.0",
     "@sxzz/prettier-config": "^2.0.2",
     "@types/node": "^22.10.1",
     "eslint": "^9.15.0",
