@@ -1,7 +1,7 @@
 {
   "name": "eip1193-types",
   "version": "0.2.2",
-  "packageManager": "pnpm@9.14.2",
+  "packageManager": "pnpm@10.33.4",
   "description": "TypeScript definitions for EIP-1193 and MetaMask.",
   "license": "MIT",
   "homepage": "https://github.com/sxzz/eip1193-types#readme",
