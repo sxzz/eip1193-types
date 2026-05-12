@@ -6,24 +6,10 @@ on:
   pull_request:
     branches: [main]
 
+permissions: {}
+
 jobs:
-  lint:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Set node
-        uses: actions/setup-node@v4
-        with:
-          node-version: lts/*
-
-      - name: Setup
-        run: npm i -g @antfu/ni
-
-      - name: Install
-        run: nci
-
-      - name: Lint
-        run: nr lint
-
-      - name: Type check
-        run: pnpm typecheck
+  unit-test:
+    uses: sxzz/workflows/.github/workflows/unit-test.yml@main
+    with:
+      skip-test: true
