@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/method-signature-style */
-import type { EIP1193Provider } from './eip1193'
-import type { EIP747, EIP1102, EIP3085, EIP3326 } from './standard-methods'
-import type { MakeRequestMethods } from './utils'
+import type { EIP1193Provider } from './eip1193.ts'
+import type { EIP747, EIP1102, EIP3085, EIP3326 } from './standard-methods.ts'
+import type { MakeRequestMethods } from './utils.ts'
 
 export interface JsonRpcRequest {
   id: string | undefined

@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "lib": ["es2022"],
+    "lib": ["es2015"],
     "moduleDetection": "force",
-    "module": "preserve",
-    "moduleResolution": "bundler",
+    "module": "node16",
+    "moduleResolution": "node16",
     "resolveJsonModule": true,
-    "types": ["node"],
+    "types": [],
+    "allowImportingTsExtensions": true,
     "strict": true,
     "noUnusedLocals": true,
     "noEmit": true,

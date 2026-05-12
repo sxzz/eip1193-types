@@ -1,4 +1,4 @@
-import type { Address } from './utils'
+import type { Address } from './utils.ts'
 
 export interface WatchAssetParams {
   /** In the future, other standards will be supported */

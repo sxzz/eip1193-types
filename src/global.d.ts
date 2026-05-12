@@ -1,3 +1,3 @@
 declare interface Window {
-  ethereum: import('./index').MetaMaskProvider
+  ethereum: import('./index.ts').MetaMaskProvider
 }

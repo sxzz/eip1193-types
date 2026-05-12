@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/method-signature-style */
-import type { Address } from '.'
+import type { Address } from './index.ts'
 
 export interface RequestArguments {
   method: any
