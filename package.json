@@ -42,7 +42,7 @@
   "devDependencies": {
     "@sxzz/eslint-config": "^4.5.0",
     "@sxzz/prettier-config": "^2.0.2",
-    "@types/node": "^22.10.1",
+    "@types/node": "^24.0.0",
     "eslint": "^9.15.0",
     "prettier": "^3.4.1",
     "typedoc": "^0.27.1",
